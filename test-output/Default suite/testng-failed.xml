@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="organization_Tests.Create_OrganizationTest">
+        <methods>
+          <include name="launch_Browser"/>
+          <include name="BeforeTest"/>
+          <include name="logout_Application"/>
+          <include name="login_application"/>
+          <include name="createOrganization"/>
+          <include name="AfterTest"/>
+          <include name="BeforeSuite"/>
+          <include name="close_Driver"/>
+          <include name="AfterSuite"/>
+        </methods>
+      </class> <!-- organization_Tests.Create_OrganizationTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
