@@ -48,6 +48,7 @@ public class Create_Contact_Test extends BaseClass {
 		Assert.assertTrue(Actual.contains(LASTNAME));
 		Reporter.log("Contact Created Sucessfully",true);
 		
+		System.out.println("---Poll Scm Test---");
 	}
 	
 }
