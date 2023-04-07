@@ -39,7 +39,7 @@ public class Create_Contact_Test extends BaseClass {
 		CreateNew_ContactPage cnc=new CreateNew_ContactPage(driver);
 		cnc.Contact_LastNameEdt(LASTNAME);
 		
-		Reporter.log("Enter Last name Using Excel Utility Sucessful",true);
+		Reporter.log("Enter Last name Using Excel Utility Sucessful Done",true);
 		
 		//Step 4 :Validate the Contact
 		Contacts_InfoPage ci=new Contacts_InfoPage(driver);
